@@ -1,0 +1,5 @@
+data/
+public_test_data/
+assets/weights/
+__pycache__/
+.ipynb_checkpoints/
