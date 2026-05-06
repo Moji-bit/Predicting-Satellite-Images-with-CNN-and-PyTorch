@@ -1,5 +1,10 @@
 data/
-public_test_data/
+test_data/
+assets/weights/
+__pycache__/
+.ipynb_checkpoints/
+data/
+test_data/
 assets/weights/
 __pycache__/
 .ipynb_checkpoints/
