@@ -1,25 +1,12 @@
-# Satellite Image Classification with CNN and PyTorch
+# final_project scaffold
 
-This project trains a custom CNN to classify 64x64 RGB satellite images into 10 terrain classes.
+This directory was created to match the requested submission scaffold.
 
-## Main files and folders
-- `k12443705.ipynb`
-- `app/app.py`
-- `assets/plots`
-- `assets/weights/best_model.pt`
+Included items:
+- `K12443705.ipynb`
+- `data/` with class folders: AnnualCrop, Forest, HerbaceousVegetation, Highway, Industrial, Pasture, PermanentCrop, Residential, River, SeaLake
+- `test_data/` with placeholder files: `0.jpg`, `1.jpg`
+- `assets/plots/` with placeholders: `random_samples.png`, `average_pixel_distribution.png`, `average_brightness.png`, `training_curves.png`, `confusion_matrix.png`, `misclassified_samples.png`
+- `assets/weights/best_model.pth`
+- `app/app.py` and `app/best_model.pth`
 - `submission.csv`
-
-## How to run the notebook
-Open `k12443705.ipynb` and run all cells from top to bottom.
-
-## How to run the Shiny app
-```bash
-shiny run --reload --launch-browser app/app.py
-```
-
-## Notes
-- No external data is used.
-- The model is trained from scratch.
-- The best model is saved based on validation accuracy.
-- `submission.csv` is generated separately for the challenge server.
-- The ZIP file is created manually by the student.
